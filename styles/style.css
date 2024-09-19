@@ -67,9 +67,9 @@
 }
 
 .header__item {
-    display: block; 
+    display: block;
     font-size: 18px;
-    line-height: 1.35; 
+    line-height: 1.35;
     text-underline-position: under;
 }
 
@@ -346,9 +346,8 @@
 
 .footer__address-link {
     display: block;
-    
     font-size: 18px;
-    line-height: 1.35; 
+    line-height: 1.35;
     letter-spacing: 0.18px;
     text-underline-position: under;
 }
