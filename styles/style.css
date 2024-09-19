@@ -1,3 +1,4 @@
+
 .content {
     width: 100%; 
     margin: auto;
@@ -66,7 +67,7 @@
 }
 
 .header__item {
-    display: block;
+    display: block; 
     font-size: 18px;
     line-height: 1.35; 
     text-underline-position: under;
@@ -195,7 +196,7 @@
     text-transform: uppercase;
 }
 
-.lots__card-list{
+.lots__card-list {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -210,7 +211,7 @@
     box-sizing: border-box;
 }
 
-/* Перенос карточки на следующую строку, когда экран станет меньше 1100px*/
+/* Перенос карточки на следующую строку, когда экран станет меньше 1090px*/
 
 @media (max-width: 1090px) {
     .lots__card-list-item:last-child {
@@ -345,6 +346,7 @@
 
 .footer__address-link {
     display: block;
+    
     font-size: 18px;
     line-height: 1.35; 
     letter-spacing: 0.18px;
@@ -360,7 +362,7 @@
     list-style: none;
 }
 
-.footer__menu-list-item:first-child .footer__menu-link{
+.footer__menu-list-item:first-child .footer__menu-link {
     text-decoration: none;
 }
 
